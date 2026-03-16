@@ -2,16 +2,16 @@ using MauiHybridWebApp.Shared.Services;
 
 namespace MauiHybridWebApp.Web.Services
 {
-    public class FormFactor : IFormFactor
+  public class FormFactor : IFormFactor
+  {
+    public string GetFormFactor()
     {
-        public string GetFormFactor()
-        {
-            return "Web";
-        }
-
-        public string GetPlatform()
-        {
-            return Environment.OSVersion.ToString();
-        }
+      return "Web";
     }
+
+    public string GetPlatform()
+    {
+      return Environment.OSVersion.ToString();
+    }
+  }
 }

@@ -11,8 +11,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="9.0.0" />
-    <PackageReference Include="Syncfusion.Blazor" Version="*" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="9.0.9" />
+    <PackageReference Include="Syncfusion.Blazor.Grid" Version="32.2.9" />
+    <PackageReference Include="Syncfusion.Blazor.Themes" Version="32.2.9" />
   </ItemGroup>
 
 </Project>
