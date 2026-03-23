@@ -1,12 +1,13 @@
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35507.96 d17.13
+VisualStudioVersion = 17.14.37027.9 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiHybridWebApp", "MauiHybridWebApp\MauiHybridWebApp.csproj", "{094FA6A4-4B1C-4205-ABFA-5C266540F739}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiHybridWebApp", "MauiHybridWebApp\MauiHybridWebApp\MauiHybridWebApp.csproj", "{6908239A-A7E3-49C4-9894-5D7CCF322264}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiHybridWebApp.Shared", "MauiHybridWebApp.Shared\MauiHybridWebApp.Shared.csproj", "{D398AD84-11D9-42EF-A86A-623CBF824235}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiHybridWebApp.Shared", "MauiHybridWebApp\MauiHybridWebApp.Shared\MauiHybridWebApp.Shared.csproj", "{168174F6-13D5-46D3-A667-846D9D0CBF73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiHybridWebApp.Web", "MauiHybridWebApp.Web\MauiHybridWebApp.Web.csproj", "{AB5A5577-4F3E-44E7-8706-84CACD970092}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiHybridWebApp.Web", "MauiHybridWebApp\MauiHybridWebApp.Web\MauiHybridWebApp.Web.csproj", "{F3F18F35-FDD5-4CF7-8E8C-66E8951E4F8D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,23 +15,23 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{094FA6A4-4B1C-4205-ABFA-5C266540F739}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{094FA6A4-4B1C-4205-ABFA-5C266540F739}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{094FA6A4-4B1C-4205-ABFA-5C266540F739}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{094FA6A4-4B1C-4205-ABFA-5C266540F739}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D398AD84-11D9-42EF-A86A-623CBF824235}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D398AD84-11D9-42EF-A86A-623CBF824235}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D398AD84-11D9-42EF-A86A-623CBF824235}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D398AD84-11D9-42EF-A86A-623CBF824235}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AB5A5577-4F3E-44E7-8706-84CACD970092}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AB5A5577-4F3E-44E7-8706-84CACD970092}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AB5A5577-4F3E-44E7-8706-84CACD970092}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AB5A5577-4F3E-44E7-8706-84CACD970092}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6908239A-A7E3-49C4-9894-5D7CCF322264}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6908239A-A7E3-49C4-9894-5D7CCF322264}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6908239A-A7E3-49C4-9894-5D7CCF322264}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6908239A-A7E3-49C4-9894-5D7CCF322264}.Release|Any CPU.Build.0 = Release|Any CPU
+		{168174F6-13D5-46D3-A667-846D9D0CBF73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{168174F6-13D5-46D3-A667-846D9D0CBF73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{168174F6-13D5-46D3-A667-846D9D0CBF73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{168174F6-13D5-46D3-A667-846D9D0CBF73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3F18F35-FDD5-4CF7-8E8C-66E8951E4F8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3F18F35-FDD5-4CF7-8E8C-66E8951E4F8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3F18F35-FDD5-4CF7-8E8C-66E8951E4F8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3F18F35-FDD5-4CF7-8E8C-66E8951E4F8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {E1036344-2645-41C0-BADB-C9F30405460F}
+		SolutionGuid = {09ED613D-A1B0-40A1-835A-D662CFBAA235}
 	EndGlobalSection
 EndGlobal

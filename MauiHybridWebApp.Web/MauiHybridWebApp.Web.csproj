@@ -7,6 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Syncfusion.Blazor.Grid" Version="32.2.9" />
+    <PackageReference Include="Syncfusion.Blazor.Themes" Version="32.2.9" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\MauiHybridWebApp.Shared\MauiHybridWebApp.Shared.csproj" />
   </ItemGroup>
 

@@ -1,21 +1,20 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <base href="/" />
-    <link rel="stylesheet" href="_content/MauiHybridWebApp.Shared/bootstrap/bootstrap.min.css" />
     <link rel="stylesheet" href="_content/MauiHybridWebApp.Shared/app.css" />
     <link rel="stylesheet" href="MauiHybridWebApp.Web.styles.css" />
     <link rel="icon" type="image/png" href="_content/MauiHybridWebApp.Shared/favicon.png" />
-    <link href="_content/Syncfusion.Blazor/styles/bootstrap5.css" rel="stylesheet" />
-    <script src="_content/Syncfusion.Blazor/scripts/syncfusion-blazor.min.js" type="text/javascript"></script>
-    <HeadOutlet @rendermode="InteractiveServer" />
+	<link href="_content/Syncfusion.Blazor.Themes/fluent2.css" rel="stylesheet" />
+    <HeadOutlet />
 </head>
 
 <body>
-    <Routes @rendermode="InteractiveServer" />
+    <Routes />
+	<script src="_content/Syncfusion.Blazor.Core/scripts/syncfusion-blazor.min.js" type="text/javascript"></script>
     <script src="_framework/blazor.web.js"></script>
 </body>
 
